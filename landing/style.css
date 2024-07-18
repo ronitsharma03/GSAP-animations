@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #dadada;
+}
+
+#center {
+  width: 65%;
+  height: 80%;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.img-container {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+img {
+  height: 100%;
+}
+
+#text {
+  overflow: hidden;
+  width: 700px;
+  height: 130px;
+  position: absolute;
+  bottom: 7%;
+  left: 3%;
+  z-index: 999;
+}
+
+#text h1 {
+  font-size: 6vw;
+  position: absolute;
+  top: 150px;
+  color: bisque;
+}
